@@ -1,0 +1,23 @@
+{
+    "name": "example",
+    "prefix": "%#PLACEHOLDER",
+    "placeholderMappings": {
+        "Header": [
+            "APPLICATION_NAME"
+        ],
+        "Hero": [
+            "HERO_HEADING_TEXT",
+            "HERO_SUBHEADING_TEXT"
+        ],
+        "Footer": [
+            "APPLICATION_NAME",
+            "FOOTER_TEXT"
+        ]
+    },
+    "placeholders": {
+        "APPLICATION_NAME": "SnapMaster",
+        "HERO_HEADING_TEXT": "Capture Life's Moments with Precision",
+        "HERO_SUBHEADING_TEXT": "Discover the perfect camera for every photographer, from beginners to professionals",
+        "FOOTER_TEXT": "\u00a9 2023 SnapMaster. Focusing on quality, innovation, and your photographic journey."
+    }
+}
