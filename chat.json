@@ -6,38 +6,5 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
-    },
-    {
-        "id": "50818859-e1d5-4f97-9f37-a6985695aab9",
-        "timestamp": "2024-11-21T10:27:55.117864Z",
-        "role": "user",
-        "source": "web_client",
-        "content": "0x1F98431c8aD98523631AE4a59f267346ea31F984\tfor that sc address on ethereum, genereate the frontend code",
-        "metadata": {
-            "component_id": "Hero1732184831"
-        }
-    },
-    {
-        "id": "6d1ace84-4af1-4087-8809-cc01d65c3e34",
-        "timestamp": "2024-11-21T10:27:59.973570Z",
-        "role": "tool_call",
-        "source": "base_assistant",
-        "content": null,
-        "metadata": {
-            "id": "call_BYyr5Ksu5ZeGA9zS0AvQP6f4",
-            "function": {
-                "arguments": "{\"component_id\":\"Hero1732184831\",\"sc_address\":\"0x1F98431c8aD98523631AE4a59f267346ea31F984\",\"chain_id\":\"ETHEREUM\",\"change_description\":\"Generate the frontend code to interact with the smart contract on Ethereum.\",\"acknowledgement_message\":\"Okay, I'm generating the frontend code to interact with the smart contract on Ethereum.\"}",
-                "name": "EditSmartContractFrontendComponent"
-            },
-            "type": "function"
-        }
-    },
-    {
-        "id": "c4791626-d0b0-42c2-8078-f45cbe63e8c8",
-        "timestamp": "2024-11-21T10:28:01.337586Z",
-        "role": "assistant",
-        "source": "tool:edit_smart_contract_frontend_component",
-        "content": "Okay, I'm generating the frontend code to interact with the smart contract on Ethereum.",
-        "metadata": {}
     }
 ]
